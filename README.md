@@ -1,108 +1,108 @@
-# World Shines Zig Standard Library
+# World Shines Zig 标准库
 
 [![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white)](https://ziglang.org/)
 [![License](https://img.shields.io/github/license/world-shines/.github?style=for-the-badge)](https://github.com/world-shines/.github/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/world-shines/.github?style=for-the-badge)](https://github.com/world-shines/.github/stargazers)
 
-[中文版本](README-zh.md) | **English**
+**中文版本** | [English](README.md)
 
-## About
+## 关于我们
 
-Welcome to the **World Shines** organization - a comprehensive Zig programming language standard library ecosystem dedicated to library storage, indexing, and distribution. Our mission is to provide high-quality, well-documented, and thoroughly tested Zig libraries that enhance the development experience for the growing Zig community.
+欢迎来到 **World Shines** 组织 - 一个专注于 Zig 编程语言标准库生态系统的综合平台，致力于库存储、索引和分发。我们的使命是为不断发展的 Zig 社区提供高质量、文档完善、经过充分测试的 Zig 库，以提升开发体验。
 
-## Purpose
+## 目标
 
-This organization serves as:
+本组织旨在提供：
 
-- 📚 **Library Repository**: A centralized collection of essential Zig libraries
-- 🔍 **Indexing System**: Organized categorization and discovery of Zig packages
-- 📦 **Package Distribution**: Streamlined access to stable and experimental Zig modules
-- 🌟 **Community Hub**: Fostering collaboration and knowledge sharing among Zig developers
+- 📚 **库存储**: 重要 Zig 库的集中化收藏
+- 🔍 **索引系统**: Zig 包的有序分类和发现
+- 📦 **包分发**: 对稳定和实验性 Zig 模块的简化访问
+- 🌟 **社区中心**: 促进 Zig 开发者之间的协作和知识分享
 
-## Features
+## 特性
 
-- **Curated Collections**: Hand-picked, high-quality Zig libraries
-- **Comprehensive Documentation**: Every library includes detailed usage examples
-- **Semantic Versioning**: Reliable version management for all packages
-- **Cross-Platform Support**: Libraries tested across multiple platforms
-- **Performance Focused**: Optimized for Zig's zero-cost abstractions
-- **Memory Safety**: Leveraging Zig's compile-time safety guarantees
+- **精选集合**: 手工挑选的高质量 Zig 库
+- **全面文档**: 每个库都包含详细的使用示例
+- **语义版本**: 所有包的可靠版本管理
+- **跨平台支持**: 在多个平台上测试的库
+- **性能导向**: 为 Zig 的零成本抽象进行优化
+- **内存安全**: 利用 Zig 的编译时安全保证
 
-## Getting Started
+## 快速开始
 
-### Prerequisites
+### 先决条件
 
-- [Zig](https://ziglang.org/download/) (latest stable version recommended)
-- Basic understanding of Zig programming concepts
+- [Zig](https://ziglang.org/download/) (推荐使用最新稳定版本)
+- 对 Zig 编程概念的基本理解
 
-### Installation
+### 安装
 
-Browse our repositories to find the libraries you need:
+浏览我们的仓库以找到您需要的库：
 
 ```bash
-# Clone a specific library
+# 克隆特定库
 git clone https://github.com/world-shines/[library-name].git
 
-# Or add as a dependency in your build.zig
-# (Specific instructions vary per library)
+# 或在您的 build.zig 中添加为依赖
+# (具体说明因库而异)
 ```
 
-### Usage Example
+### 使用示例
 
 ```zig
 const std = @import("std");
 const world_lib = @import("world-shines-lib");
 
 pub fn main() !void {
-    // Example usage of World Shines libraries
-    std.debug.print("Hello from World Shines Zig libraries!\n", .{});
+    // World Shines 库的使用示例
+    std.debug.print("来自 World Shines Zig 库的问候！\n", .{});
 }
 ```
 
-## Library Categories
+## 库分类
 
-Our libraries are organized into the following categories:
+我们的库按以下类别组织：
 
-- **Core Utilities** - Essential data structures and algorithms
-- **System Programming** - Low-level system interactions
-- **Network Libraries** - HTTP, TCP/UDP, and protocol implementations
-- **Graphics & UI** - Rendering and user interface components
-- **Data Processing** - Parsing, serialization, and data manipulation
-- **Testing & Debugging** - Development and testing utilities
+- **核心工具** - 基本数据结构和算法
+- **系统编程** - 底层系统交互
+- **网络库** - HTTP、TCP/UDP 和协议实现
+- **图形和用户界面** - 渲染和用户界面组件
+- **数据处理** - 解析、序列化和数据操作
+- **测试和调试** - 开发和测试工具
 
-## Contributing
+## 贡献
 
-We welcome contributions from the Zig community! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
+我们欢迎来自 Zig 社区的贡献！请查看我们的[贡献指南](CONTRIBUTING.md)了解以下详情：
 
-- Code style and standards
-- Testing requirements
-- Documentation expectations
-- Pull request process
+- 代码风格和标准
+- 测试要求
+- 文档期望
+- 拉取请求流程
 
-### Development Workflow
+### 开发工作流程
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Fork 仓库
+2. 创建功能分支 (`git checkout -b feature/amazing-feature`)
+3. 提交您的更改 (`git commit -m 'Add amazing feature'`)
+4. 推送到分支 (`git push origin feature/amazing-feature`)
+5. 开启 Pull Request
 
-## Community
+## 社区
 
-- **GitHub Discussions**: Join conversations about library development
-- **Issues**: Report bugs or request new features
-- **Wiki**: Browse additional documentation and guides
+- **GitHub 讨论**: 参加关于库开发的对话
+- **Issues**: 报告错误或请求新功能
+- **Wiki**: 浏览其他文档和指南
 
-## License
+## 许可证
 
-This organization and its libraries are distributed under various open-source licenses. Please check individual repositories for specific licensing information.
+本组织及其库采用各种开源许可证分发。请查看各个仓库了解具体的许可信息。
 
-## Acknowledgments
+## 致谢
 
-- The Zig team for creating an amazing systems programming language
-- Contributors who help maintain and improve these libraries
-- The broader Zig community for feedback and support
+- Zig 团队创建了这个令人惊叹的系统编程语言
+- 帮助维护和改进这些库的贡献者
+- 更广泛的 Zig 社区提供的反馈和支持
 
 ---
 
-**World Shines** - Illuminating the path to better Zig development
+**World Shines** - 照亮更好的 Zig 开发之路
